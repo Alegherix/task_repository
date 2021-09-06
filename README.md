@@ -71,6 +71,9 @@ Run migration & seed database
 
 `php artisan migrate:fresh --seed`
 
+> On Windows WSL? Don't forget to install postgres driver for php.
+> `sudo apt-get install php-pgsql`
+
 ## Running tests
 
 Run all tests
